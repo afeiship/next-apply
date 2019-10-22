@@ -18,7 +18,7 @@ function create2(tag, cls) {
   return el;
 }
 
-nx.apply(create2, null,['span','my-class1'])
+nx.apply(create2, null, ['span','my-class1']);
 ```
 
 ## resources
