@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-apply",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Faster apply for next.",
   "homepage": "https://github.com/afeiship/next-apply",
   "author": {
@@ -39,5 +39,11 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "call",
+    "apply",
+    "invoke"
+  ]
 }
