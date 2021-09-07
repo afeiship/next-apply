@@ -1,9 +1,9 @@
-(function() {
-  var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+(function () {
+  var global = typeof window !== 'undefined' ? window : this || Function('return this')();
+  var nx = global.nx || require('@jswork/next');
   var FUNC = 'function';
 
-  nx.apply = function(inFunc, inContext, inArgs) {
+  nx.apply = function (inFunc, inContext, inArgs) {
     if (typeof inFunc !== FUNC) return;
     switch (inArgs ? inArgs.length : 0) {
       case 0:
