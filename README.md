@@ -26,6 +26,11 @@ function create2(tag, cls) {
 nx.apply(create2, null, ['span','my-class1']);
 ```
 
+## resources
+- https://github.com/JayceTDE/fast-apply/blob/master/index.js
+- https://www.cnblogs.com/lijiayi/p/callandapply.html
+- https://blog.csdn.net/zhengyinhui100/article/details/7837127/
+
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-apply/blob/master/LICENSE.txt).
 
